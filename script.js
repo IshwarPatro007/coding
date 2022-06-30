@@ -13,7 +13,7 @@ console.log(document.querySelector(`.guess`).value);
 */
 
 let secretNumber = Math.trunc(Math.random() * 100) + 1;
-let score = 25;
+let score = 2587687;
 let highscore = 0;
 console.log(`Secrete-Number: ${secretNumber}`);
 document.querySelector(`.number`).value = secretNumber;
